@@ -169,7 +169,7 @@ if __name__ == "__main__":
 
 ```
 
-![Figure_1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5bd0c8-1a5b-4370-bb4a-c0fc3e632bea/6603be5f-653b-4d0a-b39f-5550d7f47adb/Figure_1.png)
+<img src="Figure_1.png" alt="dataSet figure image" />
 
 >## 결과 도출
 ## MNIST 데이터셋 인식 훈련 결과 도출 사항
