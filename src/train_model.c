@@ -73,7 +73,6 @@ directory architecture
 #define META3_DIR "../../meta_h3.txt"
 
 #define EPOCH 40
-#define BATCH_SIZE 1
 
 // ธ๐ธเลา
 #define MOMENTUM_ALPHA 0.95f
