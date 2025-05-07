@@ -17,7 +17,7 @@
 └─ README.md
 ```
 ## 🧪 1. Fully Connected Neural Network (nn_model.py)
-📌 구조
+## 📌 구조
 - 입력층: 28 × 28 → 784차원
 
 - 은닉층 1: 512 노드 (ReLU)
@@ -26,7 +26,7 @@
 
 - 출력층: 10개 클래스 (0~9 숫자)
 
-⚙️ 학습 설정
+## ⚙️ 학습 설정
 - Optimizer: Adam
 
 - Loss: CrossEntropyLoss
@@ -35,12 +35,12 @@
 
 - Batch size: 32
 
-🏁 실행 방법
+## 🏁 실행 방법
 
 ```
 python nn_model.py
 ```
-🎯 결과 예시
+## 🎯 결과 예시
 ```
 Epoch 1, Batch 200, Loss: 0.340
 ...
