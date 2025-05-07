@@ -14,7 +14,8 @@
 ├─ nn_setup.py         # MNIST 이미지 시각화 및 전처리
 ├─ nn_model.py         # 3층 Fully Connected Neural Network 모델 정의 및 학습
 ├─ cnn.py              # CNN 기반 모델 정의, 학습, 평가 및 모델 저장
-└─ README.md```
+└─ README.md
+```
 ## 🧪 1. Fully Connected Neural Network (nn_model.py)
 📌 구조
 - 입력층: 28 × 28 → 784차원
@@ -36,14 +37,18 @@
 
 🏁 실행 방법
 
-```python nn_model.py```
+```
+python nn_model.py
+```
 🎯 결과 예시
-```Epoch 1, Batch 200, Loss: 0.340
+```
+Epoch 1, Batch 200, Loss: 0.340
 ...
-Accuracy of the network on the 10000 test images: 97.1%```
+Accuracy of the network on the 10000 test images: 97.1%
+```
 
 ## 🧠 2. Convolutional Neural Network (cnn.py)
-##📌 구조
+## 📌 구조
 - Conv1: 1채널 입력 → 32채널 (3×3 kernel, padding='same') + MaxPool
 
 - Conv2: 32채널 → 64채널 (3×3 kernel, padding='same') + MaxPool
